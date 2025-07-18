@@ -1,11 +1,88 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ก๋วยเตี๋ยวต้มยำเด็ดช่วงพักเที่ยง</title>
+  <style>
+    body {
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      margin: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 10px;
+    }
+    h1 {
+      color: #c0392b;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .item {
+      background-color: #ffe6d5;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .item img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .price {
+      font-size: 1.2em;
+      color: #e74c3c;
+    }
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
 <body>
 
-<h1>Your Name Here</h1>
+<header>
+  <h1>🔥 ก๋วยเตี๋ยวต้มยำสำหรับพนักงานออฟฟิศ 🔥</h1>
+  <p>อิ่มแซ่บ ราคาประหยัด พร้อมเสิร์ฟทุกช่วงพักเที่ยง!</p>
+</header>
 
-<h2> Your student code here</h2>
+<section class="container">
+  <div class="item">
+    <img src="https://example.com/tomyum1.jpg" alt="ต้มยำทะเล">
+    <h2>ต้มยำทะเล</h2>
+    <p>รสจัดจ้านพร้อมกุ้ง หมึกครบเครื่อง</p>
+    <p class="price">69 บาท</p>
+  </div>
+  <div class="item">
+    <img src="https://example.com/tomyum2.jpg" alt="ต้มยำหมู">
+    <h2>ต้มยำหมู</h2>
+    <p>หมูนุ่มน้ำข้น เผ็ดกำลังดี</p>
+    <p class="price">59 บาท</p>
+  </div>
+  <div class="item">
+    <img src="https://example.com/tomyum3.jpg" alt="ต้มยำลูกชิ้นปลา">
+    <h2>ลูกชิ้นปลาต้มยำ</h2>
+    <p>ลูกชิ้นเนื้อปลาแน่นๆ ซดคล่องคอ</p>
+    <p class="price">65 บาท</p>
+  </div>
+  <div class="item">
+    <img src="https://example.com/tomyum4.jpg" alt="ต้มยำโบราณ">
+    <h2>ต้มยำโบราณ</h2>
+    <p>สูตรดั้งเดิมเข้มข้น หอมเครื่องสมุนไพร</p>
+    <p class="price">55 บาท</p>
+  </div>
+</section>
+
+<footer>
+  <p>📍 ร้านตั้งอยู่ใกล้อาคารสำนักงาน ABC Tower <br>⏰ เปิดทุกวันจันทร์–ศุกร์ 11:00–14:00</p>
+</footer>
 
 </body>
-
 </html>
